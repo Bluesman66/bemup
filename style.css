@@ -1,0 +1,50 @@
+.Page {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f6f5f3;
+}
+
+.Header {
+    padding: 14px 0;
+
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+}
+
+.Logo {
+    font-size: 120%;
+    text-decoration: none;
+
+    color: #000;
+}
+
+.Input {
+    width: 350px;
+    height: 38px;
+    padding: 0 8px;
+
+    font-size: 15px;
+    line-height: 38px;
+
+    border: 2px solid #e8e8e8;
+    -webkit-appearance: none;
+}
+
+.Button {
+    padding: 0 12px;
+
+    font-size: 15px;
+    line-height: 38px;
+
+    color: #202020;
+    border: none;
+    border-radius: 3px;
+    background: #e8e8e8;
+}
+
+.Search-Button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
