@@ -17,21 +17,20 @@
 
     border-bottom: 1px solid #ccc;
     background: #fff;
-}
 
-.Header-Inner {
+    &-Inner {
         width: 1000px;
         margin: auto;
     }
+}
 
 .Logo {
     font-size: 120%;
     text-decoration: none;
 
     color: #000;
-}
 
-.Logo-Icon {
+    &-Icon {
         display: inline-block;
 
         width: 50px;
@@ -42,6 +41,7 @@
 
         background: url(i/logo.svg) no-repeat;
     }
+}
 
 .Input {
     width: 350px;
