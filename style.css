@@ -6,11 +6,18 @@
     background: #f6f5f3;
 }
 
+.Container {}
+
 .Header {
     padding: 14px 0;
 
     border-bottom: 1px solid #ccc;
     background: #fff;
+}
+
+.Header-Inner {
+    width: 1000px;
+    margin: auto;
 }
 
 .Logo {
@@ -47,4 +54,11 @@
 .Search-Button {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+.Avatar {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
 }
