@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sync": "browser-sync start --server --files 'style.css'",
+    "sync": "browser-sync start --server --watch 'index.html' 'style.css'",
     "watch": "postcss style.post.scss -o style.css -w"
   },
   "repository": {
