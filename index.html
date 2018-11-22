@@ -9,8 +9,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
 <script src="node_modules/react/umd/react.production.min.js"></script>
 <script src="node_modules/react-dom/umd/react-dom.production.min.js"></script>
+
+<script type="text/babel">
+    class Snippet extends React.Component {  
+        render() {
+            return (<div class="Snippet">
+                        <div class="Snippet-Headline">Рекомендуем</div>
+                        <img class="Snippet-Image" src="http://placeimg.com/180/180/tech??2" alt="" />
+                        <a class="Snippet-Category" href="">Ноутбуки</a>
+                        <a class="Snippet-Title" href="">Apple MacBook Pro 13 with Retina display Early 2015</a>
+                        <div class="Snippet-Price">от 84 999 ₽</div>
+                    </div>);
+        }
+    }    
+
+    ReactDOM.render(<Snippet/>, document.querySelector('.Page'));
+</script>
 
 <body class="Page">
     <header class="Header">
