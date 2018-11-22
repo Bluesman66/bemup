@@ -26,7 +26,20 @@
         }
     }    
 
-    ReactDOM.render(<Snippet/>, document.querySelector('.Page'));
+    class Goods extends React.Component {  
+        render() {
+            return [
+            <Snippet/>,
+            <Snippet/>,
+            <Snippet/>,
+            <Snippet/>,
+            <Snippet/>,
+            <Snippet/>
+            ];
+        }
+    }
+
+    ReactDOM.render(<Goods/>, document.querySelector('.Page'));
 </script>
 
 <body class="Page">
